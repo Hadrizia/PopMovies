@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.example.hadrizia.popmovies.MainActivity"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:showDividers="middle">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/filme1"
+            android:background= "@drawable/rosie"
+            android:clickable="true"
+            android:layout_weight="1"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/filme2"
+            android:background="@drawable/filme2"
+            android:clickable="true"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/filme3"
+            android:background = "@drawable/jogos"
+            android:clickable="true"
+            android:layout_weight="1"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/filme4"
+            android:background = "@drawable/filme4"
+            android:layout_weight="1"
+            android:clickable="true"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+
